@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-size: 3rem;
+  background-image: linear-gradient( to right, blue, lightgreen);
+}
+
+#heading{
+  color: rgb(32, 4, 77);
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-shadow: 3px 3px gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clock {
+  margin-bottom: 3rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.alarm-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-right: 1rem;
+  font-size: 45px;
+  font-style: italic;
+}
+
+input{
+  height: 28px;
+  border-radius: 5px;
+  height: 2rem;
+  width: 7rem;
+  text-align: center;
+  color: rgb(15, 15, 58);
+  font-size: 1.25rem;
+  background-color: aquamarine;
+}
+
+button {
+  margin-right: 1rem;
+  border-radius: 25px;
+  height: 40px;
+  width: 80px;
+  padding: 5px;
+  font-weight: 750;
+  color: antiquewhite;
+}
+
+#set-alarm{
+  margin-left: 1rem;
+  background-color: rgb(66, 192, 49);
+}
+
+#stop-alarm{
+  background-color: rgb(192, 54, 49);
+  
+}
+
+#snooze-alarm{
+  background-color: rgb(75, 49, 192);
+}
